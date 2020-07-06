@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+}
+.main{
+    width: 500px;
+    height: 350px;
+    background-color: aquamarine;
+    margin: 100px auto;
+}
+.main h2{
+    text-align: center;
+    background-color: #23eee4;
+    border-radius: 20px;
+
+}
+.timer {
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #e6e9fe;
+    margin-bottom: 40px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    text-align: center;
+ 
+    
+}
+h1{
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    margin-left: 30px;
+    font-size: 80px;
+}
+.buton {
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 90px;
+    height: 45px;
+}
+.btn{
+    margin-left: 80px;
+}
