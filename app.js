@@ -6,6 +6,7 @@ var interval;
 var getmili = document.getElementById("miliId")
 var getsec = document.getElementById("secId")
 var getmin = document.getElementById("minId")
+const button = document.querySelector("button")
 
 function timer(){
     milisec++
@@ -22,12 +23,15 @@ function timer(){
     }
 
 }
+
 function start(){
 interval = setInterval(timer,10)
+button.disabled=true;
 
 }
 function stop(){
     clearInterval(interval)
+    button.disabled = false;
 }
 function reset(){
     milisec = 00;
@@ -37,4 +41,5 @@ function reset(){
     getmin.innerHTML = mint;
     getmili.innerHTML = milisec
     clearInterval(interval)
+    button.disabled = false;
 }
